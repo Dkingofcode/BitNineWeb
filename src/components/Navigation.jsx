@@ -20,7 +20,39 @@ const Navigation = () => {
          <option value="ja">Japanese</option>
          <option value="zh">Chinese</option>
        </select>        
+
+       <div>
+        {/* search */}
+       </div>
+
+       <h2>CONTACT</h2>
+
+       <div className='links'>
+        <a>github</a>
+        <a>Youtube</a>
+        <a>Linkedin</a>
+        <a>facebook</a>
+        <a>M</a>
+       </div>
       </header>
+
+      <main>
+        <h1>Logo</h1>
+
+
+        <nav>
+          <ul>
+            <li>Products</li>
+            <li>Use Cases</li>
+            <li>Services</li>
+            <li>Resources</li>
+            <li>Blog</li>
+            <li>Company</li>
+            <li>Ir</li>
+            <button>Try Free</button>  
+          </ul>  
+        </nav>
+      </main>
     </div>
   )
 }
